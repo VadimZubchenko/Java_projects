@@ -1,0 +1,2 @@
+stack.Iterator
+stack.StackIterator

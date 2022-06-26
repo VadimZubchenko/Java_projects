@@ -1,0 +1,2 @@
+Viope_ItseOpiskelu_harjoittelut.Periytyminen.viimeTehtava.Ajoneuvo
+Viope_ItseOpiskelu_harjoittelut.Periytyminen.viimeTehtava.Auto

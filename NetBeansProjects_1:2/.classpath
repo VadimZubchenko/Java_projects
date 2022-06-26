@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="AbstractFactory/src"/>
+	<classpathentry kind="src" path="BTree-3 10.21.54/src"/>
+	<classpathentry kind="src" path="Composite/src"/>
+	<classpathentry kind="src" path="Composite/Suunnittelutmallit_Teht2-3/AbstractFactory/src"/>
+	<classpathentry kind="src" path="JavaApplication1/src"/>
+	<classpathentry kind="src" path="Kayttoliittyma_TestFX/src/main/java"/>
+	<classpathentry kind="src" path="Observer_pattern/src"/>
+	<classpathentry kind="src" path="Pattern/src"/>
+	<classpathentry kind="src" path="Pizza_decorator/src"/>
+	<classpathentry kind="src" path="Teht_10/src"/>
+	<classpathentry kind="src" path="Teht_11/src"/>
+	<classpathentry kind="src" path="Teht_12/src"/>
+	<classpathentry kind="src" path="Tietokonekauppa_maven/Ohjelmistotuotantoprojekti/src/main/java"/>
+	<classpathentry kind="src" path="Tietokonekauppa_maven/Ohjelmistotuotantoprojekti/src/test/java"/>
+	<classpathentry kind="src" path="Tietokonekauppa_maven/Suunnittelutmallit/Observer/src"/>
+	<classpathentry kind="src" path="Tietokonekauppa_maven/Suunnittelutmallit/Oma_harjoutukset/src"/>
+	<classpathentry kind="src" path="Tietokonekauppa_maven/Suunnittelutmallit/WeatherStation/src"/>
+	<classpathentry kind="src" path="Tilakaavio_java/src"/>
+	<classpathentry excluding="tilakone/" kind="src" path="Tilakone/src"/>
+	<classpathentry kind="src" path="Tilakone/src/tilakone"/>
+	<classpathentry kind="lib" path="Kayttoliittyma_TestFX/target/Harjoitus_4_TestFX-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="Kayttoliittyma_TestFX/target/Kayttoliittyma_TestFX-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="State_pattern/dist/State_pattern.jar"/>
+	<classpathentry kind="lib" path="Tietokonekauppa_maven/Ohjelmistotuotantoprojekti/lib/unknown/binary/mysql-connector-java-5.1.23-bin/SNAPSHOT/mysql-connector-java-5.1.23-bin-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="Tilakone/dist/Tilakone.jar"/>
+	<classpathentry kind="output" path="AbstractFactory/build/classes"/>
+</classpath>
