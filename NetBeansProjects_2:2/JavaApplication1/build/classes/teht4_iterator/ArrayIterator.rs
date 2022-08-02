@@ -1,3 +1,0 @@
-teht4_iterator.Iterator
-teht4_iterator.ArrayIterators
-teht4_iterator.ArrayIterator

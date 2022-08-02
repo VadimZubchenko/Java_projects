@@ -119,3 +119,51 @@ dist
 
 # TernJS port file
 .tern-port
+/JavaProjects/nbproject/private/
+/JavaProjects/build/
+/NetBeansProjects_1:2/JouksuTraineri/JouksuTraineri/nbproject/private/
+/NetBeansProjects_1:2/JouksuTraineri/nbproject/private/
+/NetBeansProjects_1:2/TestJava/target/
+/NetBeansProjects_1:2/JavaApplication2/nbproject/private/
+/NetBeansProjects_1:2/JavaApplication2/build/
+/NetBeansProjects_1:2/DemoProject/target/
+/JouksuTraineri/JouksuTraneri/nbproject/private/
+/JouksuTraineri/JouksuTraneri/build/
+/JouksuTraineri/JavaApplication13/nbproject/private/
+/JouksuTraineri/JavaApplication13/build/
+/JavaTestProject/nbproject/private/
+/JavaTestProject/build/
+/NewFolder/JavaApplication15/nbproject/private/
+/NetBeansProjects_1:2/AbstractFactory/build/
+/NetBeansProjects_1:2/AbstractFactory/nbproject/private/
+/NetBeansProjects_1:2/Composite/build/
+/NetBeansProjects_1:2/Composite/nbproject/private/
+/NetBeansProjects_1:2/Pizza_decorator/build/
+/NetBeansProjects_1:2/Pizza_decorator/nbproject/private/
+/NetBeansProjects_1:2/build/
+/NetBeansProjects_1:2/nbproject/private/
+/NetBeansProjects_2:2/Composite/Suunnittelutmallit_Teht2-3/AbstractFactory/nbproject/private/
+/NetBeansProjects_2:2/Composite/Suunnittelutmallit_Teht2-3/AbstractFactory/build/
+/NetBeansProjects_1:2/Tilakone/nbproject/private/
+/NetBeansProjects_1:2/Tilakone/build/
+/NetBeansProjects_1:2/Tietokonekauppa_maven/Ohjelmistotuotantoprojekti/target/
+/NetBeansProjects_1:2/Tietokonekauppa_maven/Ohjelmistotuotantoprojekti/nbproject/
+/NetBeansProjects_1:2/Kayttoliittyma_TestFX/target/
+/NetBeansProjects_1:2/Hebernate_object/target/
+/Java_koulu_proj/BTree-3 10.21.54/build/
+/Java_koulu_proj/BTree-3 10.21.54/nbproject/private/
+/Java_koulu_proj/Binaari_Bheap_ClosedHashing_Postfix/build/
+/Java_koulu_proj/Binaari_Bheap_ClosedHashing_Postfix/nbproject/private/
+/Java_koulu_proj/JavaHarjoittelut/build/
+/Java_koulu_proj/JavaHarjoittelut/nbproject/private/
+/Java_koulu_proj/JouksuTrainer/build/
+/Java_koulu_proj/JouksuTrainer/nbproject/private/
+/Java_koulu_proj/QueueStackTehtävät/build/
+/Java_koulu_proj/QueueStackTehtävät/nbproject/private/
+/Java_koulu_proj/SuunniMal_teht/nbproject/private/
+/Java_koulu_proj/Suunnittelutmallit/Suunnittelumallit/build/
+/Java_koulu_proj/Suunnittelutmallit/Suunnittelumallit/nbproject/private/
+/Java_koulu_proj/Tilakaavio_java/build/
+/Java_koulu_proj/Tilakaavio_java/nbproject/private/
+/Java_koulu_proj/Tilakone/build/
+/Java_koulu_proj/Tilakone/nbproject/private/

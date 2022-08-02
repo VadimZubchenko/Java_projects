@@ -1,2 +1,0 @@
-queue.Iterator
-queue.StackIterator

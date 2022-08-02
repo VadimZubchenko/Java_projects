@@ -1,2 +1,0 @@
-abstractfactory_singleton.Teht_Abstract_Factory
-abstractfactory_singleton.R

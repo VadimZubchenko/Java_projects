@@ -1,3 +1,0 @@
-CompositionCarEngine.GFG
-CompositionCarEngine.Car
-CompositionCarEngine.Engine

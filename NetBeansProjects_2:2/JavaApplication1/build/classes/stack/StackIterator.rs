@@ -1,2 +1,0 @@
-stack.Iterator
-stack.StackIterator

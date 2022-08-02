@@ -1,1 +1,0 @@
-tempate_method.Tempate_method

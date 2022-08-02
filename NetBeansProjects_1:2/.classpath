@@ -26,5 +26,8 @@
 	<classpathentry kind="lib" path="State_pattern/dist/State_pattern.jar"/>
 	<classpathentry kind="lib" path="Tietokonekauppa_maven/Ohjelmistotuotantoprojekti/lib/unknown/binary/mysql-connector-java-5.1.23-bin/SNAPSHOT/mysql-connector-java-5.1.23-bin-SNAPSHOT.jar"/>
 	<classpathentry kind="lib" path="Tilakone/dist/Tilakone.jar"/>
+	<classpathentry kind="src" path="Vadim_test_1/src/Nokia_test"/>
+	<classpathentry kind="src" path="Vadim_test_1/src/MVC_simple"/>
+	<classpathentry kind="src" path="JouksuTraineri/src/juoksuTraineri"/>
 	<classpathentry kind="output" path="AbstractFactory/build/classes"/>
 </classpath>
