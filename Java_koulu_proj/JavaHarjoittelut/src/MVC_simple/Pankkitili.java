@@ -9,7 +9,7 @@ public class Pankkitili {
     // kapseloidut ominaisuudet
     private double saldo;
 
-    // konstruktori, joka vaatii alkusaldon
+    // konstruktori yhdella parametrilla, joka vaatii alkusaldon argumenteksi
     public Pankkitili(double saldo) {
         this.saldo = saldo;
     }

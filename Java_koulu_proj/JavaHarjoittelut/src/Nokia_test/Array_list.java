@@ -6,6 +6,7 @@
 package Nokia_test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 
 /**
@@ -17,15 +18,16 @@ public class Array_list {
     public static void main(String[] args) {
         int n1, n2;
 
-        /*
-         * luodaan 2 arrayListaa niin että niiden 10 arvoa olisivat erilaisia
-         * ja randomly valittu 1-100 välissä.
+         /*
+         Tehtävä 
+         luodaan 2 arrayListaa niin että niiden 10 arvoa olisivat erilaisia
+         ja randomly valittu 1-100 välissä.
          */
         ArrayList<Integer> luku = new ArrayList();
         ArrayList<Integer> luku2 = new ArrayList();
 
         // Random rand = new Random(); // old version, that I've changed to
-        // functioin addDiff(), see below
+        // function addDiff(), see below
         /*
          * Voit määritellä laskurimuuttujan silmukan alustuksen yhteydessä.
          * Tällöin muuttuja ei ole käytössä silmukan ulkopuolella: int i;
@@ -39,7 +41,7 @@ public class Array_list {
              * tarkistetaan ovatko ne eri,
              * Huom! ennen while-loopia esitellään muuttujat n1 ja n2. Ks. ylös
              */
-            while (n1 == n2) { // while loop kunnes n1 != n2;
+            while (n1 == n2) { // while loops kunnes n1 != n2;
                 System.out.println("Ups!! Now we are inside of while loop, cause \"n2\" "
                         + "is a same as \"n1\" = " + n1);
 
@@ -49,12 +51,17 @@ public class Array_list {
 
                 System.out.println("n2 after changing: " + n2);
             }
-            // tähän kohgtaan pääsemme vain jos arvoluku ei oo sama kun n2
+            // tähän kohtaan pääsemme vain jos arvoluku ei oo sama kun n2
             // lisätään ArrayListaan
             luku2.add(n2);
             luku.add(n1);
         }
+        //tulostetaan arvoja ArratList-objekktina, eli luku ja luku2
         System.out.println(luku + "\n" + luku2);
+
+        /***************************************************************
+         ***************************************************************
+         ***************************************************************/
 
         System.out.println("----Toinen tapa do..while-lausella------ ");
 
@@ -76,24 +83,26 @@ public class Array_list {
             luku3.add(n1);
             luku4.add(n2);
         }
-        // taulukko saa tulosta vain ja pelkästään vain!!! iteration avulla,
+        // TAULUKKO(ei ArrayList) tulostetaan alkiot vain ja pelkästään vain! iteration avulla,
         // eli jokasen alkun erikseen
-        System.out.print("\nEsim. tulostettu iteraation avulla: ");
-        int[] luku1 = { 1, 2, 3 };
-        for (int m : luku1) {
+        System.out.print("\nTämä on esimerki miten tulostetaan taulukko iteraation avulla: ");
+        double[] luku1 = { 1.0, 2.3, 3.4 };
+        System.out.println("Tulostetaan suoraan objektina: " + Arrays.toString(luku1));
+        
+        for (double m : luku1) {
             System.out.print(m + ", ");
         }
-        System.out.print("\nEsim. tulostettu iteraation avulla: ");
+        System.out.print("\nEsim. tulostettu ilman hakasulkeita[] iteraation avulla: ");
         // ArrayList voidaan tulosta sekä eriksen, että kerrallaan, ks alhalla
         for (Integer l3 : luku4) {
             System.out.print(l3 + ", ");
         }
-        System.out.print("\nEsim. tulostettu kerrallaan objecteina: \n");
+        System.out.print("\nEsim. tulostettu kerrallaan objekteina: \n");
         // tai helpommin kerrallaan koko ArrayList
         System.out.println(luku3 + "\n" + luku4);
 
         /*
-         * Tavallisessa taulukossa voidaan säilyttää erityyppisiä
+         * Tavalliseen taulukkoon voidaan säilyttää erityyppisiä
          * muuttujia samanaikaisesti siten,
          * että taulukko määritellään object-tyyppiseksi
          */
@@ -113,8 +122,8 @@ public class Array_list {
 
     }
 
-    // it's better to use just one function instead 4 of rand.nextInt(100);
-    // static using for availability this method in outside of main-class
+    // it's better to use just one function instead 4 lines of rand.nextInt(100);
+    // static (no necesarry) using for availability this method in outside of main-class
     public static int addDiff() {
         int newOne;
         Random random = new Random();

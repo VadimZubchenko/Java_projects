@@ -16,7 +16,7 @@ public class Naytto {
     // tieto kontrollerista, jolle näyttö lähettää pyynnöt
     private Kontrolleri kontrolleri; //mutta tässä luokassa sitä ei luoda 
     // Tä on kiinostava: kontrolleri-olio on luotu 
-    // Kontrolleri-luokan sisällä main-metodissa.
+    // Kontrolleri-luokan sisällä on main-metodissa.
 
     // metodi luo näytön, joka näytetään aluksi käyttäjälle
     public void aloitusNaytto() {
@@ -99,6 +99,7 @@ public class Naytto {
     
     public void rekisteroiOhjain(Kontrolleri ohjain) {
         // näyttö saa tiedon kontrollerista, jolle se välittää pyyntöjä
+        // eli niin se voi käyttää kontrollerin oliota omiin tehtäviin. 
         this.kontrolleri = ohjain;
     }
     

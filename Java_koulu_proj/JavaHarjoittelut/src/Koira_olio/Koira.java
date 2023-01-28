@@ -15,18 +15,19 @@ public class Koira {
     String nimi;
     int ika;
 
+    //luodaan parametriton konstructori 
     public Koira() {
         nimi = null;
         rotu = null;
         ika = 0;
     }
-
+    // luodann konstruktori kolmella parametrilla
     public Koira(String uusi_nimi, String uusi_rotu, int uusi_ika) {
         nimi = uusi_nimi;
         rotu = uusi_rotu;
         ika = uusi_ika;
     }
-
+    //luodaan luokan staatinen metodi, joten se on saatavilla muille oliolle 
     public static void hauku() {
         System.out.println("Hau hau!!!");
     }
@@ -48,5 +49,5 @@ public class Koira {
         System.out.println("nimi: " + nimi + ", ikä: "
                 + "" + ika + ", vuotias " + ", rotu: " + rotu);
     }
-    
+
 }

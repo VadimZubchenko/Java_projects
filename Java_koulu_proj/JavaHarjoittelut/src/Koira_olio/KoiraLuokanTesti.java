@@ -7,12 +7,14 @@ package Koira_olio;
 public class KoiraLuokanTesti {
     public static void main(String[] args)
     {
+        // luodaan koira parametrittomall konstruktorilla
         Koira eka_koira = new Koira();
     
+        //esitettään ja täytetään muuttuija 
         String tokan_nimi = "Rekku";
         String tokan_rotu = "Dalmatialainen";
         int tokan_ika = 7;
-    
+        // luodaan koira konstruktorilla kolmella parametrilla
         Koira toka_koira = new Koira(tokan_nimi, tokan_rotu, tokan_ika);
     
         System.out.println("Koirien tiedot alussa:\n");
@@ -28,13 +30,14 @@ public class KoiraLuokanTesti {
         // muuten vain olion kautta, kuten eka_koira.hauku();
         Koira.hauku();
         
-        System.out.println("");
+        System.out.println("Annetaan eka_koiralle nimi, rotu ja ika");
         
         eka_koira.asetaNimi("Pluto");
         eka_koira.asetaRotu("Vinttikoira");
         eka_koira.asetaIka(3);
+        eka_koira.tulostaTiedot();
         
-        System.out.println("Nyt muutetaan toka_koiran ominaisuudet:");
+        System.out.println("\nNyt muutetaan toka_koiran ominaisuudet:");
         
         /* Nyt muutetaan toka_koiran ominaisuudet:"*/
         toka_koira.asetaNimi("Jerry");

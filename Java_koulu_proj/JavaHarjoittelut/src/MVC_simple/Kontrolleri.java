@@ -17,8 +17,9 @@ import javax.swing.JOptionPane;
 // viite tähän Controller-olioon.
 
 public class Kontrolleri {
-    // private final Engine engine; // Composition "part of"
-    // private Engine engine; // Aggregation "has a"
+    //just good to know for creating UML-diagramm 
+    //private final Engine engine; // Composition "part of"
+    //private Engine engine; // Aggregation "has a"
 
     // kapseloidut ominaisuudet (V, M)
     private Naytto naytto; // heikko koostumissuhde, Aggregation
@@ -27,10 +28,10 @@ public class Kontrolleri {
 
     public Kontrolleri() {
         // Nyt kontrollerin (C) konstruktori (eli tämä metodi)
-        // luo muut tarvittavat komponentit ja pyytää sitten
+        // luo muut tarvittavat komponentit(oliot) ja pyytää sitten
         // näyttöä esittämään aloitusnäytön.
 
-        // luodaan sovelluksen tarvitsemat muut komponentit: M, V.
+        // luodaan sovelluksen tarvitsemat muut komponentit(oliot): M, V.
         malli = new Pankkitili(500); // M, alkusaldo 500.
         naytto = new Naytto(); // V
 
@@ -55,7 +56,7 @@ public class Kontrolleri {
         if (maksuOk) {
             naytto.naytaViesti("Onnistui!");
         } else {
-            // ei nyt jaksa..
+            //kun maksuOk=false, ilmoitetaan että rahaa ei riittää
             naytto.naytaViesti("Ei riittää...");
         }
         naytto.aloitusNaytto();

@@ -18,14 +18,14 @@ public class Different_List_Variables {
         
     
         Integer[] table = new Integer[5];
+        Integer[] table2 = new Integer[5];
         int i = 0;
         
         while (i < 5) {            
             table[i] = addDiff();
-            int check = addDiff();
+            table2[i] = addDiff();
             
-                
-                while (table[i] == check) {
+                while (table[i] == table2[i]) {
                     
                     table[i] = addDiff();
                     
@@ -37,12 +37,11 @@ public class Different_List_Variables {
         
             
         }
-        
-        
         for (i = 0; i < 5; i++) {
-            System.out.print(table[i] + ", ");
+            System.out.print("t1: " + table[i] + ", ");
+            System.out.println("\tt2: " + table2[i] + ", ");
         }
-        System.out.println("\n");
+        
     }
     
     
