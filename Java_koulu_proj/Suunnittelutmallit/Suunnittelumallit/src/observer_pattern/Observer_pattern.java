@@ -15,14 +15,14 @@ public class Observer_pattern {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       System.out.println("Enter Text: ");
-        var eventSource = new EventSource();
-        
+        System.out.println("Enter Text: ");
+        EventSource eventSource = new EventSource();
+
         eventSource.addObserver(event -> {
             System.out.println("Received response: " + event);
         });
 
         eventSource.scanSystemIn();
     }
-    
+
 }

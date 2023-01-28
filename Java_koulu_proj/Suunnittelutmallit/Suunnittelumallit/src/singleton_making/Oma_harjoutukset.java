@@ -49,7 +49,7 @@ class Singleton {
         counter++;
     }
 
-    public static  Singleton getSingleton() {
+    public static Singleton getSingleton() {
         if (instance == null) {
             synchronized (Singleton.class){
                 if (instance == null)

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tempate_method;
+package template_method;
 
 /**
  *
@@ -18,5 +18,5 @@ public class Tempate_method {
         Game arvaNumero = new ArvaNumero();
         arvaNumero.playOneGame(2);
     }
-    
+
 }

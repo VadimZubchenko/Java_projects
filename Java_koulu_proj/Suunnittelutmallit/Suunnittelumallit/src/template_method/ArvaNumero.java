@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tempate_method;
+package template_method;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -43,7 +43,7 @@ public class ArvaNumero extends Game {
     void makePlay(int player) {
 
         kortti = rand.nextInt(5);
-        //System.out.println("Kortti: " + kortti);
+        // System.out.println("Kortti: " + kortti);
         System.out.println("Arva kortin numero: ");
         numero = lukija.nextInt();
 

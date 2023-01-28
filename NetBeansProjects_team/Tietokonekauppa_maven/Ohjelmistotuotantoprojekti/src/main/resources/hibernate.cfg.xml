@@ -41,20 +41,20 @@ Contributor(s):
 -->
 <hibernate-configuration>
   <session-factory>
-    <property name="hibernate.dialect">org.hibernate.dialect.MariaDBDialect</property>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
     <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-    <property name="hibernate.connection.url">jdbc:mysql://localhost:4444/Tietokonekauppa?zeroDateTimeBehavior=convertToNull</property>
-    <property name="hibernate.connection.username">Kouhia</property>
-    <property name="hibernate.connection.password">84EltB</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/Tietokonekauppa?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">Nadym1971</property>
     <property name="hbm2ddl.auto">validate</property>
     <property name="show_sql">true</property>
     <property name="hibernate.jdbc.batch_size">20</property>
-    <mapping class="model.Asiakas"/>
-    <mapping class="model.Henkilosto"/>
-    <mapping class="model.Tilaus"/>
-    <mapping class="model.Tilaus_rivi"/>
-    <mapping class="model.Osa"/>
-    <mapping class="model.Paketti"/>
-    <mapping class="model.Paketti_rivi"/>
+    <mapping class="model.Asiakas" />
+    <mapping class="model.Henkilosto" />
+    <mapping class="model.Tilaus" />
+    <mapping class="model.Tilaus_rivi" />
+    <mapping class="model.Osa" />
+    <mapping class="model.Paketti" />
+    <mapping class="model.Paketti_rivi" />
   </session-factory>
 </hibernate-configuration>
