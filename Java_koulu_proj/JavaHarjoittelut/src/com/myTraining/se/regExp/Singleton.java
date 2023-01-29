@@ -4,6 +4,8 @@
  */
 package com.myTraining.se.regExp;
 
+import com.vadimzu.regExp.Singleton2;
+
 /**
  *
  * @author vadimzubchenko
@@ -33,7 +35,9 @@ class GFG {
 
         for (int i = 1; i < 11; i++) {
             Singleton w = Singleton.getINSTANCE();
-            System.out.println("Url of" + i + ": " + w.dbUrl);
+            System.out.println("Url " + i + ": " + w.dbUrl);
+            Singleton2 s = Singleton2.instanceGet();
+            System.out.println("Url2 " + i+ ": \t" + s.url );
         }
     }
 
