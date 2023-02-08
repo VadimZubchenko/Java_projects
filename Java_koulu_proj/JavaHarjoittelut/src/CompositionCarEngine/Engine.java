@@ -3,7 +3,6 @@ package CompositionCarEngine;
 // Java program,which illustrates a 
 // difference between Aggregation 
 // Composition. 
-import java.io.*;
 
 // Engine class, which will 
 // be used by car. So 'Car' 
@@ -11,7 +10,6 @@ import java.io.*;
 // of Engine type. 
 class Engine {
     // starting an engine. 
-
     public void work() {
 
         System.out.println("Engine of car has been started ");
@@ -27,7 +25,7 @@ final class Car {
            In order to get a car moving, 
            it need to have a engine. 
            Here's field of Engine type. 
-     */
+    */
     // private final Engine engine; // Composition "part of"
     // private Engine engine; // Aggregation "has a"
     private final Engine engine; //final keyword makes Composition relation between car and engine

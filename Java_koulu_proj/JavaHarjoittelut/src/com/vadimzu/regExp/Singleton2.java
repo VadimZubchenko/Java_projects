@@ -27,10 +27,15 @@ public class Singleton2 {
     }
 
 public static void main(String[] args) {
-        
+        // try out the diff. castings
+        int cast = 8;
+        float castt = 5.23444444f;
+        double myDouble = castt;
         for (int i = 0; i < 10; i++) {
             Singleton2 s = Singleton2.instanceGet();
             System.out.println("url " + i +": \t" + s.url);
+            System.out.println("url in float \'" + i + "\'\t" + (float) s.url);
+            System.out.println("casting to double: " + myDouble);
         }
     }
 }

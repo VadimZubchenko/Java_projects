@@ -22,8 +22,8 @@ public class Kontrolleri {
     //private Engine engine; // Aggregation "has a"
 
     // kapseloidut ominaisuudet (V, M)
-    private Naytto naytto; // heikko koostumissuhde, Aggregation
-    private Pankkitili malli;// heikko koostumissuhde, Aggregation
+    private Naytto naytto; // heikko koostumissuhde? kun ei final, Aggregation? Ks. konstrukorin komenti
+    private Pankkitili malli;// heikko koostumissuhde? kun ei final, Aggregation?
     boolean maksuOk;
 
     public Kontrolleri() {
@@ -32,7 +32,9 @@ public class Kontrolleri {
         // näyttöä esittämään aloitusnäytön.
 
         // luodaan sovelluksen tarvitsemat muut komponentit(oliot): M, V.
-        malli = new Pankkitili(500); // M, alkusaldo 500.
+        // se on composition-suhde kun luodaan uudet oliot konstruktorilla, 
+        // jos Kontrolleri-olio tuhoutuu niin 'malli' ja 'nayttö' -oliot tuhoutuvat sen mukaan.  
+        malli = new Pankkitili(500); // M, alkusaldo 500. 
         naytto = new Naytto(); // V
 
         // välitetään näytölle tieto sovelluksen kontrollerista eli
