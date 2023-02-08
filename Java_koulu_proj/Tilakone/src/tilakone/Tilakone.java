@@ -63,7 +63,7 @@ public class Tilakone {
      * @param args the command line arguments
      */
     public static void main(String a[]) {
-        File file = new File("/Users/vadimzubchenko/Java_koulu_proj/Tilakone/src/tilakone/Java_code.java");
+        File file = new File("/Users/vadimzubchenko/NetBeans_Projects/Java_koulu_proj/Tilakone/src/tilakone/Java_code.java");
         lueRivi(file);
 
     }
